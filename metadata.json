@@ -1,0 +1,6 @@
+{
+  "name": "KonaNeko",
+  "description": "Liquid dark anime wallpaper gallery powered by Konachan API with soft tsundere neko AI companion, BYOK Gemini integration, likes, and comments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

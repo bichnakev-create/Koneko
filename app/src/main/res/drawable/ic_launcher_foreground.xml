@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer liquid rounded card silhouette -->
+    <path
+        android:pathData="M34,36 C34,31.6 37.6,28 42,28 L66,28 C70.4,28 74,31.6 74,36 L74,72 C74,76.4 70.4,80 66,80 L42,80 C37.6,80 34,76.4 34,72 Z"
+        android:fillColor="#1F1A3A"
+        android:strokeWidth="1.5"
+        android:strokeColor="#7C3AED" />
+
+    <!-- Neko Left Ear -->
+    <path
+        android:pathData="M37,34 L28,21 C27.5,20.2 28.5,19.3 29.3,19.7 L45,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="20"
+                android:endX="45"
+                android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F43F5E" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Neko Left Inner Ear -->
+    <path
+        android:pathData="M35,31 L30,23 L40,28 Z"
+        android:fillColor="#FDA4AF" />
+
+    <!-- Neko Right Ear -->
+    <path
+        android:pathData="M71,34 L80,21 C80.5,20.2 79.5,19.3 78.7,19.7 L63,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="63"
+                android:startY="20"
+                android:endX="80"
+                android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A855F7" />
+                <item android:offset="1.0" android:color="#F43F5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Neko Right Inner Ear -->
+    <path
+        android:pathData="M73,31 L78,23 L68,28 Z"
+        android:fillColor="#FDA4AF" />
+
+    <!-- Center Gallery/Wallpaper Mountain and Sun Vector Symbol -->
+    <path
+        android:pathData="M40,68 L50,53 L58,63 L63,57 L68,68 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Cute Sun / Moon droplet -->
+    <path
+        android:pathData="M46,42 A4,4 0 1,0 46,50 A4,4 0 1,0 46,42"
+        android:fillColor="#FBBF24" />
+
+    <!-- Sparkling heart / star badge -->
+    <path
+        android:pathData="M54,49 C54,48 55.5,46 57,46 C58.5,46 59.5,47.2 59.5,48.5 C59.5,50.2 57.5,52 54,55 C50.5,52 48.5,50.2 48.5,48.5 C48.5,47.2 49.5,46 51,46 C52.5,46 54,48 54,49 Z"
+        android:fillColor="#EC4899" />
+</vector>
